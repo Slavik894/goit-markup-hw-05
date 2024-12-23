@@ -482,6 +482,10 @@ img {
 .subscribe{
   margin-left: 80px;
 }
+.footer-email-form{
+  display: flex;
+  gap: 24px;
+}
 
 .email-input{
   border: 1px solid #fff;
@@ -490,18 +494,19 @@ img {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   margin-right: 24px;
-
   padding: 8px 16px;
-  
-}
- .email-input{
-  background-color: #2e2f42;
-  font-weight: 400;
+  background-color: transparent;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
+
+  
 }
+ /* .email-input{
+  background-color: #2e2f42;
+  font-weight: 400;
+} */
 .email-input::placeholder{
   font-weight: 400;
 font-size: 12px;
@@ -519,7 +524,7 @@ color: #fff;
 padding: 8px 24px;
 min-width: 165px;
 height: 40px;
-background: #4d5ae5;
+background-color: #4d5ae5;
 border: none;
 font-weight: 500;
 font-size: 16px;
@@ -527,6 +532,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
 color: #fff;
+
 }
 .send-icon{
   margin-left: 16px;
