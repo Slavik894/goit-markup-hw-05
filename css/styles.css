@@ -707,6 +707,9 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
 }
+.form-wrapper-cont.comment-form{
+  margin-bottom: 16px;
+}
 
 .blue {
   text-decoration: underline;
